@@ -1,0 +1,137 @@
+<h3 style="margin:0 0 10px 0;font-size:17px;font-weight:600;color:#2c2b28">Gα Protein Domain Variant Counts</h3>
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap">
+<button id="selall" style="font-size:12px;padding:4px 10px">Select all</button>
+<button id="clrall" style="font-size:12px;padding:4px 10px">Clear all</button>
+<span id="statusline" style="font-size:12px;color:var(--text-secondary)">All 7 G-Protein Shown</span>
+</div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px" id="legend">
+<button class="pill active" data-gene="Gi_Protein" style="border-color:#2a78d6;color:#2a78d6">Gi_Protein</button>
+<button class="pill active" data-gene="Go_Protein" style="border-color:#eb6834;color:#eb6834">Go_Protein</button>
+<button class="pill active" data-gene="Gq_Protein" style="border-color:#1baf7a;color:#1baf7a">Gq_Protein</button>
+<button class="pill active" data-gene="G11_Protein" style="border-color:#eda100;color:#eda100">G11_Protein</button>
+<button class="pill active" data-gene="G13_Protein" style="border-color:#e87ba4;color:#e87ba4">G13_Protein</button>
+<button class="pill active" data-gene="G12_Protein" style="border-color:#008300;color:#008300">G12_Protein</button>
+<button class="pill active" data-gene="Gs_Protein" style="border-color:#4a3aa7;color:#4a3aa7">Gs_Protein</button>
+</div>
+<div style="position:relative;width:100%">
+<svg viewBox="0 0 900 600" style="width:100%;height:auto" role="img" aria-label="Scatter plot of coding variant counts by Ga protein structural domain, one dot per gene per domain">
+<line x1="50" y1="500.0" x2="880" y2="500.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="504.0" text-anchor="end" font-size="13" fill="#898781">0</text>
+<line x1="50" y1="425.0" x2="880" y2="425.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="429.0" text-anchor="end" font-size="13" fill="#898781">5</text>
+<line x1="50" y1="350.0" x2="880" y2="350.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="354.0" text-anchor="end" font-size="13" fill="#898781">10</text>
+<line x1="50" y1="275.0" x2="880" y2="275.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="279.0" text-anchor="end" font-size="13" fill="#898781">15</text>
+<line x1="50" y1="200.0" x2="880" y2="200.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="204.0" text-anchor="end" font-size="13" fill="#898781">20</text>
+<line x1="50" y1="125.0" x2="880" y2="125.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="129.0" text-anchor="end" font-size="13" fill="#898781">25</text>
+<line x1="50" y1="50.0" x2="880" y2="50.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="54.0" text-anchor="end" font-size="13" fill="#898781">30</text>
+<text x="14" y="275" text-anchor="middle" font-size="14" font-weight="600" fill="#52514e" transform="rotate(-90 14 275)">Total number of variants</text>
+<text x="96.1" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 96.1 518)">N-term</text>
+<text x="188.3" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 188.3 518)">Ras domain (N)</text>
+<text x="280.6" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 280.6 518)">Helical domain</text>
+<text x="372.8" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 372.8 518)">Switch I</text>
+<text x="465.0" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 465.0 518)">Ras domain (mid)</text>
+<text x="557.2" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 557.2 518)">Switch II</text>
+<text x="649.4" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 649.4 518)">Ras domain (C)</text>
+<text x="741.7" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 741.7 518)">alpha5 helix</text>
+<text x="833.9" y="518" text-anchor="end" font-size="13" fill="#52514e" transform="rotate(-30 833.9 518)">C-term</text>
+<circle class="dot gene-Gi_Protein" cx="72.1" cy="470.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="N-term" data-count="2"><title>Gi_Protein - N-term: 2 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="88.1" cy="470.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="N-term" data-count="2"><title>Go_Protein - N-term: 2 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="104.1" cy="470.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="N-term" data-count="2"><title>Gq_Protein - N-term: 2 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="120.1" cy="470.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="N-term" data-count="2"><title>G11_Protein - N-term: 2 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="96.1" cy="410.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="N-term" data-count="6"><title>G13_Protein - N-term: 6 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="96.1" cy="380.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="N-term" data-count="8"><title>G12_Protein - N-term: 8 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="96.1" cy="440.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="N-term" data-count="4"><title>Gs_Protein - N-term: 4 variants</title></circle>
+<circle class="dot gene-Gi_Protein" cx="188.3" cy="440.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="Ras domain (N)" data-count="4"><title>Gi_Protein - Ras domain (N): 4 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="180.3" cy="470.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="Ras domain (N)" data-count="2"><title>Go_Protein - Ras domain (N): 2 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="196.3" cy="470.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="Ras domain (N)" data-count="2"><title>G11_Protein - Ras domain (N): 2 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="188.3" cy="380.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="Ras domain (N)" data-count="8"><title>Gq_Protein - Ras domain (N): 8 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="188.3" cy="425.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="Ras domain (N)" data-count="5"><title>G13_Protein - Ras domain (N): 5 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="188.3" cy="410.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="Ras domain (N)" data-count="6"><title>G12_Protein - Ras domain (N): 6 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="188.3" cy="455.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="Ras domain (N)" data-count="3"><title>Gs_Protein - Ras domain (N): 3 variants</title></circle>
+<circle class="dot gene-Gi_Protein" cx="280.6" cy="320.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="Helical domain" data-count="12"><title>Gi_Protein - Helical domain: 12 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="272.6" cy="245.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="Helical domain" data-count="17"><title>Go_Protein - Helical domain: 17 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="288.6" cy="245.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="Helical domain" data-count="17"><title>G13_Protein - Helical domain: 17 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="280.6" cy="125.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="Helical domain" data-count="25"><title>Gq_Protein - Helical domain: 25 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="280.6" cy="215.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="Helical domain" data-count="19"><title>G11_Protein - Helical domain: 19 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="280.6" cy="155.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="Helical domain" data-count="23"><title>G12_Protein - Helical domain: 23 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="280.6" cy="95.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="Helical domain" data-count="27"><title>Gs_Protein - Helical domain: 27 variants</title></circle>
+<circle class="dot gene-Gi_Protein" cx="356.8" cy="485.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="Switch I" data-count="1"><title>Gi_Protein - Switch I: 1 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="372.8" cy="485.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="Switch I" data-count="1"><title>Gq_Protein - Switch I: 1 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="388.8" cy="485.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="Switch I" data-count="1"><title>G12_Protein - Switch I: 1 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="364.8" cy="500.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="Switch I" data-count="0"><title>Go_Protein - Switch I: 0 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="380.8" cy="500.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="Switch I" data-count="0"><title>G11_Protein - Switch I: 0 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="372.8" cy="440.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="Switch I" data-count="4"><title>G13_Protein - Switch I: 4 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="372.8" cy="470.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="Switch I" data-count="2"><title>Gs_Protein - Switch I: 2 variants</title></circle>
+<circle class="dot gene-Gi_Protein" cx="465.0" cy="425.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="Ras domain (mid)" data-count="5"><title>Gi_Protein - Ras domain (mid): 5 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="457.0" cy="455.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="Ras domain (mid)" data-count="3"><title>Go_Protein - Ras domain (mid): 3 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="473.0" cy="455.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="Ras domain (mid)" data-count="3"><title>G11_Protein - Ras domain (mid): 3 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="465.0" cy="395.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="Ras domain (mid)" data-count="7"><title>Gq_Protein - Ras domain (mid): 7 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="465.0" cy="440.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="Ras domain (mid)" data-count="4"><title>G13_Protein - Ras domain (mid): 4 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="465.0" cy="380.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="Ras domain (mid)" data-count="8"><title>G12_Protein - Ras domain (mid): 8 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="465.0" cy="365.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="Ras domain (mid)" data-count="9"><title>Gs_Protein - Ras domain (mid): 9 variants</title></circle>
+<circle class="dot gene-Gi_Protein" cx="549.2" cy="485.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="Switch II" data-count="1"><title>Gi_Protein - Switch II: 1 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="565.2" cy="485.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="Switch II" data-count="1"><title>G13_Protein - Switch II: 1 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="541.2" cy="470.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="Switch II" data-count="2"><title>Go_Protein - Switch II: 2 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="557.2" cy="470.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="Switch II" data-count="2"><title>G11_Protein - Switch II: 2 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="573.2" cy="470.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="Switch II" data-count="2"><title>G12_Protein - Switch II: 2 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="549.2" cy="500.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="Switch II" data-count="0"><title>Gq_Protein - Switch II: 0 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="565.2" cy="500.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="Switch II" data-count="0"><title>Gs_Protein - Switch II: 0 variants</title></circle>
+<circle class="dot gene-Gi_Protein" cx="649.4" cy="410.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="Ras domain (C)" data-count="6"><title>Gi_Protein - Ras domain (C): 6 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="649.4" cy="350.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="Ras domain (C)" data-count="10"><title>Go_Protein - Ras domain (C): 10 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="641.4" cy="365.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="Ras domain (C)" data-count="9"><title>Gq_Protein - Ras domain (C): 9 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="657.4" cy="365.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="Ras domain (C)" data-count="9"><title>G11_Protein - Ras domain (C): 9 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="641.4" cy="275.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="Ras domain (C)" data-count="15"><title>G13_Protein - Ras domain (C): 15 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="657.4" cy="275.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="Ras domain (C)" data-count="15"><title>Gs_Protein - Ras domain (C): 15 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="649.4" cy="260.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="Ras domain (C)" data-count="16"><title>G12_Protein - Ras domain (C): 16 variants</title></circle>
+<circle class="dot gene-Gi_Protein" cx="733.7" cy="455.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="alpha5 helix" data-count="3"><title>Gi_Protein - alpha5 helix: 3 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="749.7" cy="455.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="alpha5 helix" data-count="3"><title>Gs_Protein - alpha5 helix: 3 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="741.7" cy="440.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="alpha5 helix" data-count="4"><title>Go_Protein - alpha5 helix: 4 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="741.7" cy="410.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="alpha5 helix" data-count="6"><title>Gq_Protein - alpha5 helix: 6 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="733.7" cy="470.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="alpha5 helix" data-count="2"><title>G11_Protein - alpha5 helix: 2 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="749.7" cy="470.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="alpha5 helix" data-count="2"><title>G12_Protein - alpha5 helix: 2 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="741.7" cy="425.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="alpha5 helix" data-count="5"><title>G13_Protein - alpha5 helix: 5 variants</title></circle>
+<circle class="dot gene-Gi_Protein" cx="825.9" cy="500.0" r="7" fill="#2a78d6" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gi_Protein" data-domain="C-term" data-count="0"><title>Gi_Protein - C-term: 0 variants</title></circle>
+<circle class="dot gene-G11_Protein" cx="841.9" cy="500.0" r="7" fill="#eda100" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G11_Protein" data-domain="C-term" data-count="0"><title>G11_Protein - C-term: 0 variants</title></circle>
+<circle class="dot gene-Go_Protein" cx="833.9" cy="425.0" r="7" fill="#eb6834" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Go_Protein" data-domain="C-term" data-count="5"><title>Go_Protein - C-term: 5 variants</title></circle>
+<circle class="dot gene-Gq_Protein" cx="825.9" cy="485.0" r="7" fill="#1baf7a" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gq_Protein" data-domain="C-term" data-count="1"><title>Gq_Protein - C-term: 1 variants</title></circle>
+<circle class="dot gene-G13_Protein" cx="841.9" cy="485.0" r="7" fill="#e87ba4" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G13_Protein" data-domain="C-term" data-count="1"><title>G13_Protein - C-term: 1 variants</title></circle>
+<circle class="dot gene-G12_Protein" cx="833.9" cy="455.0" r="7" fill="#008300" stroke="var(--surface-1)" stroke-width="1.5" data-gene="G12_Protein" data-domain="C-term" data-count="3"><title>G12_Protein - C-term: 3 variants</title></circle>
+<circle class="dot gene-Gs_Protein" cx="833.9" cy="440.0" r="7" fill="#4a3aa7" stroke="var(--surface-1)" stroke-width="1.5" data-gene="Gs_Protein" data-domain="C-term" data-count="4"><title>Gs_Protein - C-term: 4 variants</title></circle>
+</svg>
+</div>
+<style>
+.pill{border:1.5px solid;border-radius:14px;background:transparent;font-size:12px;padding:4px 10px;cursor:pointer;opacity:1}
+.pill.inactive{opacity:0.3}
+.dot{transition:opacity 0.15s}
+</style>
+<script>
+(function(){
+  var genes = ["Gi_Protein", "Go_Protein", "Gq_Protein", "G11_Protein", "G13_Protein", "G12_Protein", "Gs_Protein"];
+  var active = new Set(genes);
+  function render(){
+    genes.forEach(function(g){
+      var show = active.has(g);
+      document.querySelectorAll(".gene-"+g).forEach(function(el){ el.style.opacity = show ? "1" : "0"; el.style.pointerEvents = show ? "auto" : "none"; });
+      var pill = document.querySelector('.pill[data-gene="'+g+'"]');
+      if(pill) pill.classList.toggle("inactive", !show);
+    });
+    var n = active.size;
+    document.getElementById("statusline").textContent = n === genes.length ? "All 7 G-Proteins Shown" : (n === 0 ? "No G-Protein Selected" : n + " G-Protein" + (n>1?"s":"") + " Shown");
+  }
+  document.querySelectorAll(".pill").forEach(function(pill){
+    pill.addEventListener("click", function(){
+      var g = pill.getAttribute("data-gene");
+      if(active.has(g)) active.delete(g); else active.add(g);
+      render();
+    });
+  });
+  document.getElementById("selall").addEventListener("click", function(){ active = new Set(genes); render(); });
+  document.getElementById("clrall").addEventListener("click", function(){ active = new Set(); render(); });
+  render();
+})();
+</script>
