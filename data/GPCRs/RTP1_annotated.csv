@@ -1,0 +1,369 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v115.2
+## Output produced at 2026-06-04 05:28:11
+## Connected to homo_sapiens_core_115_37 on ensembldb.ensembl.org
+## Using API version 115, DB version 115
+## ensembl version 115.266b84d
+## ensembl-compara version 115.ae48a7a
+## ensembl-funcgen version 115.57f7061
+## ensembl-io version 115.25061d3
+## ensembl-variation version 115.b7c2637
+## assembly version GRCh37.p13
+## gencode version GENCODE 19
+## genebuild version 2011-04
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## SYMBOL : Gene symbol (e.g. HGNC)
+## SYMBOL_SOURCE : Source of gene symbol
+## HGNC_ID : Stable identifer of HGNC gene symbol
+## CANONICAL : Indicates if transcript is canonical for this gene
+## ENSP : Protein identifer
+## VEP command-line: vep --assembly GRCh37 --canonical --input_file [PATH]/RTP1_variants.vcf --output_file [PATH]/RTP1_annotated.csv --protein --symbol --tab
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	IMPACT	DISTANCE	STRAND	FLAGS	SYMBOL	SYMBOL_SOURCE	HGNC_ID	CANONICAL	ENSP
+rtp1_186915283	3:186915283	C	ENSG00000175077	ENST00000312295	Transcript	5_prime_UTR_variant	10	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915283	3:186915283	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	2269	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915387	3:186915387	C	ENSG00000175077	ENST00000312295	Transcript	missense_variant	114	84	28	L/F	ttG/ttC	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915387	3:186915387	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	2165	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915455	3:186915455	G	ENSG00000175077	ENST00000312295	Transcript	missense_variant	182	152	51	Y/C	tAt/tGt	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915455	3:186915455	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	2097	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915477	3:186915477	G	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	204	174	58	K	aaG/aaG	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915477	3:186915477	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	2075	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915478	3:186915478	C	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	205	175	59	P	Ccg/Ccg	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915478	3:186915478	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	2074	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915554	3:186915554	C	ENSG00000175077	ENST00000312295	Transcript	missense_variant	281	251	84	L/P	cTg/cCg	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915554	3:186915554	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1998	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915555	3:186915555	G	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	282	252	84	L	ctG/ctG	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915555	3:186915555	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1997	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915572	3:186915572	G	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	299	269	90	G	gGc/gGc	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915572	3:186915572	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1980	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915594	3:186915594	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915594	3:186915594	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1958	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915611	3:186915611	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915611	3:186915611	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1941	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915612	3:186915613-186915618	-	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915612	3:186915613-186915618	-	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1934-1939	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915615	3:186915615	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915615	3:186915615	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1937	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915650	3:186915650	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915650	3:186915650	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1902	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915672	3:186915672	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915672	3:186915672	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1880	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915693	3:186915693	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915693	3:186915693	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1859	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915706	3:186915706	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915706	3:186915706	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1846	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915715	3:186915715	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915715	3:186915715	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1837	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915761	3:186915761	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915761	3:186915761	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1791	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915799	3:186915800	-	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915799	3:186915800	-	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1752	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915835	3:186915835	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915835	3:186915835	C	ENSG00000198491	ENST00000356133	Transcript	splice_polypyrimidine_tract_variant,intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	LOW	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915844	3:186915844-186915845	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915844	3:186915844-186915845	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915851	3:186915851	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915851	3:186915851	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915912	3:186915912	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915912	3:186915912	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915934	3:186915934	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915934	3:186915934	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915937	3:186915937	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915937	3:186915937	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915938	3:186915938	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915938	3:186915938	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915986	3:186915986	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915986	3:186915986	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186915989	3:186915989	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186915989	3:186915989	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916025	3:186916025	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916025	3:186916025	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916033	3:186916033	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916033	3:186916033	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916039	3:186916039	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916039	3:186916039	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916188	3:186916188-186916189	AC	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916188	3:186916188-186916189	AC	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916190	3:186916190	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916190	3:186916190	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916218	3:186916218	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916218	3:186916218	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916228	3:186916228	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916228	3:186916228	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916232	3:186916232	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916232	3:186916232	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916241	3:186916241-186916242	CA	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916241	3:186916241-186916242	CA	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916244	3:186916244	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916244	3:186916244	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916285	3:186916285	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916285	3:186916285	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916291	3:186916291	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916291	3:186916291	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916292	3:186916292	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916292	3:186916292	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916297	3:186916297	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916297	3:186916297	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916321	3:186916321	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916321	3:186916321	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1727	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916330	3:186916330	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916330	3:186916330	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1718	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916344	3:186916344	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916344	3:186916344	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1704	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916374	3:186916374	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916374	3:186916374	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1674	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916390	3:186916390	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916390	3:186916390	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1658	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916400	3:186916400	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916400	3:186916400	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1648	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916435	3:186916435	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916435	3:186916435	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1613	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916471	3:186916471	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916471	3:186916471	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1577	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916509	3:186916509	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916509	3:186916509	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916526	3:186916526	T	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916526	3:186916526	T	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916563	3:186916563	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916563	3:186916563	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916585	3:186916585	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916585	3:186916585	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916675	3:186916675	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916675	3:186916675	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916685	3:186916685	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916685	3:186916685	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916756	3:186916756	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916756	3:186916756	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916773	3:186916773	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916773	3:186916773	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916777	3:186916777-186916778	TAT	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916777	3:186916777-186916778	TAT	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916799	3:186916799	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916799	3:186916799	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916847	3:186916847	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916847	3:186916847	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916869	3:186916869	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916869	3:186916869	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916903	3:186916903-186916904	AAG	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916903	3:186916903-186916904	AAG	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916953	3:186916953	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916953	3:186916953	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916973	3:186916973	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916973	3:186916973	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916974	3:186916974	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916974	3:186916974	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916975	3:186916975	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916975	3:186916975	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916977	3:186916977	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916977	3:186916977	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916979	3:186916979	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916979	3:186916979	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916988	3:186916989	-	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916988	3:186916989	-	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186916993	3:186916993	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186916993	3:186916993	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917030	3:186917030	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917030	3:186917030	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1543	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917037	3:186917037	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917037	3:186917037	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1536	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917038	3:186917038	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917038	3:186917038	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1535	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917048	3:186917048	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917048	3:186917048	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1525	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917049	3:186917049	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917049	3:186917049	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1524	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917050	3:186917050-186917051	A	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917050	3:186917050-186917051	A	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1522-1523	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917095	3:186917095	T	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917095	3:186917095	T	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1478	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917141	3:186917141	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917141	3:186917141	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1432	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917155	3:186917155	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917155	3:186917155	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1418	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917227	3:186917227	C	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917227	3:186917227	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1346	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917231	3:186917231	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917231	3:186917231	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1342	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917266	3:186917267-186917269	-	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917266	3:186917267-186917269	-	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1304-1306	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917272	3:186917272-186917273	TCC	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917272	3:186917272-186917273	TCC	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1300-1301	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917294	3:186917294	G	ENSG00000175077	ENST00000312295	Transcript	intron_variant	-	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917294	3:186917294	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1279	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917331	3:186917331	T	ENSG00000175077	ENST00000312295	Transcript	splice_region_variant,splice_polypyrimidine_tract_variant,intron_variant	-	-	-	-	-	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917331	3:186917331	T	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1242	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917345	3:186917345	G	ENSG00000175077	ENST00000312295	Transcript	missense_variant	309	279	93	H/Q	caC/caG	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917345	3:186917345	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1228	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917359	3:186917359	G	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	323	293	98	W	tGg/tGg	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917359	3:186917359	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1214	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917395	3:186917395-186917396	T	ENSG00000175077	ENST00000312295	Transcript	frameshift_variant	359-360	329-330	110	F/FX	ttc/ttTc	-	HIGH	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917395	3:186917395-186917396	T	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1177-1178	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917462	3:186917462	G	ENSG00000175077	ENST00000312295	Transcript	missense_variant	426	396	132	C/W	tgC/tgG	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917462	3:186917462	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1111	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917486	3:186917486	G	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	450	420	140	L	ctG/ctG	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917486	3:186917486	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1087	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917551	3:186917551	G	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	515	485	162	R	cGc/cGc	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917551	3:186917551	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1022	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917569	3:186917569	G	ENSG00000175077	ENST00000312295	Transcript	missense_variant	533	503	168	E/G	gAg/gGg	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917569	3:186917569	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	1004	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917581	3:186917581	C	ENSG00000175077	ENST00000312295	Transcript	missense_variant	545	515	172	Q/P	cAg/cCg	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917581	3:186917581	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	992	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917607	3:186917607	C	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	571	541	181	Q	Cag/Cag	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917607	3:186917607	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	966	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917614	3:186917614	G	ENSG00000175077	ENST00000312295	Transcript	missense_variant	578	548	183	N/S	aAc/aGc	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917614	3:186917614	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	959	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917677	3:186917677	G	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	641	611	204	S	aGc/aGc	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917677	3:186917677	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	896	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917695	3:186917695-186917696	A	ENSG00000175077	ENST00000312295	Transcript	frameshift_variant	659-660	629-630	210	E/EX	gag/gaAg	-	HIGH	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917695	3:186917695-186917696	A	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	877-878	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917743	3:186917743	G	ENSG00000175077	ENST00000312295	Transcript	missense_variant	707	677	226	S/W	tCg/tGg	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917743	3:186917743	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	830	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917775	3:186917775	C	ENSG00000175077	ENST00000312295	Transcript	missense_variant	739	709	237	C/R	Tgc/Cgc	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917775	3:186917775	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	798	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917795	3:186917795	C	ENSG00000175077	ENST00000312295	Transcript	missense_variant	759	729	243	L/F	ttG/ttC	-	MODERATE	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917795	3:186917795	C	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	778	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917853	3:186917853	G	ENSG00000175077	ENST00000312295	Transcript	synonymous_variant	817	787	263	V	Gta/Gta	-	LOW	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917853	3:186917853	G	ENSG00000198491	ENST00000356133	Transcript	non_coding_transcript_exon_variant	720	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186917939	3:186917939	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	903	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186917939	3:186917939	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918017	3:186918017	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	981	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918017	3:186918017	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918022	3:186918022	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	986	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918022	3:186918022	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918065	3:186918065	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1029	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918065	3:186918065	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918075	3:186918075-186918076	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1039-1040	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918075	3:186918075-186918076	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918076	3:186918076	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1040	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918076	3:186918076	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918077	3:186918077	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1041	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918077	3:186918077	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918125	3:186918125	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1089	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918125	3:186918125	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918195	3:186918195	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1159	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918195	3:186918195	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918198	3:186918198	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1162	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918198	3:186918198	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918260	3:186918260	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1224	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918260	3:186918260	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918263	3:186918263	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1227	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918263	3:186918263	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918288	3:186918288	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1252	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918288	3:186918288	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918295	3:186918295	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1259	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918295	3:186918295	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918301	3:186918301	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1265	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918301	3:186918301	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918315	3:186918315	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1279	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918315	3:186918315	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918361	3:186918369-186918370	TT	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1333-1334	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918361	3:186918369-186918370	TT	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918382	3:186918382-186918383	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1346-1347	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918382	3:186918382-186918383	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918400	3:186918400	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1364	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918400	3:186918400	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918421	3:186918421	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1385	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918421	3:186918421	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918445	3:186918445	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1409	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918445	3:186918445	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918457	3:186918457	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1421	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918457	3:186918457	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918491	3:186918491	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1455	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918491	3:186918491	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918512	3:186918512	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1476	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918512	3:186918512	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918522	3:186918522	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1486	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918522	3:186918522	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918525	3:186918525	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1489	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918525	3:186918525	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918531	3:186918531-186918532	TTT	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1495-1496	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918531	3:186918531-186918532	TTT	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918541	3:186918541	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1505	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918541	3:186918541	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918600	3:186918600	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1564	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918600	3:186918600	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918607	3:186918607	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1571	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918607	3:186918607	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918608	3:186918608	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1572	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918608	3:186918608	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918613	3:186918613	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1577	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918613	3:186918613	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918614	3:186918614	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1578	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918614	3:186918614	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918631	3:186918631	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1595	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918631	3:186918631	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918645	3:186918645	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1609	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918645	3:186918645	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918652	3:186918652	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1616	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918652	3:186918652	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918653	3:186918653	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1617	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918653	3:186918653	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918655	3:186918655	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1619	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918655	3:186918655	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918656	3:186918656	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1620	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918656	3:186918656	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918657	3:186918657	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1621	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918657	3:186918657	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918706	3:186918706	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1670	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918706	3:186918706	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918713	3:186918713	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1677	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918713	3:186918713	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918775	3:186918775	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1739	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918775	3:186918775	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918784	3:186918784	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1748	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918784	3:186918784	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918809	3:186918809	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1773	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918809	3:186918809	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918828	3:186918828	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1792	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918828	3:186918828	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918864	3:186918864	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1828	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918864	3:186918864	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918870	3:186918870	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1834	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918870	3:186918870	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918887	3:186918887	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1851	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918887	3:186918887	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918888	3:186918888	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1852	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918888	3:186918888	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918889	3:186918889	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1853	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918889	3:186918889	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918923	3:186918923	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1887	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918923	3:186918923	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186918925	3:186918925	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	1889	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186918925	3:186918925	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919058	3:186919058	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2022	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919058	3:186919058	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919061	3:186919061	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2025	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919061	3:186919061	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919091	3:186919091	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2055	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919091	3:186919091	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919120	3:186919120	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2084	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919120	3:186919120	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919145	3:186919145	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2109	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919145	3:186919145	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919154	3:186919154	C	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2118	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919154	3:186919154	C	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919158	3:186919168-186919169	GTTTTTTTTT	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2132-2133	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919158	3:186919168-186919169	GTTTTTTTTT	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919159	3:186919161-186919162	T	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2125-2126	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919159	3:186919161-186919162	T	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919169	3:186919170-186919171	T	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2134-2135	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919169	3:186919170-186919171	T	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919179	3:186919180-186919181	T	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2144-2145	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919179	3:186919180-186919181	T	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
+rtp1_186919217	3:186919217	G	ENSG00000175077	ENST00000312295	Transcript	3_prime_UTR_variant	2181	-	-	-	-	-	MODIFIER	-	1	-	RTP1	HGNC	28580	YES	ENSP00000311712
+rtp1_186919217	3:186919217	G	ENSG00000198491	ENST00000356133	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	MODIFIER	-	-1	-	RP11-208N14.4	Clone_based_vega_gene	-	YES	-
