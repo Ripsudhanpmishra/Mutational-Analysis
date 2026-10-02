@@ -1,0 +1,78 @@
+Location,Affected Allele,Other Allele,Consequences,Protein Position,Amino Acid Change,Codons,Allele Frequency,P Value,Negative Logp Value,Receptor,Structural Region,Bw Number,Structural Class,Receptor Class,G-Protein Coupling,Functional Note,Uniprot
+8:26721632,G,A,missense_variant,285,W/C,tgG/tgC,,0.09459,1.02415477453243,ADRA1A,TM6,6.48,Transmembrane,A,Gq/11,W6.48 — CWxP toggle switch; rotates upon activation,P35348
+8:26628098,C,T,synonymous_variant,323,P,ccC/ccG,,0.9819,0.0079327399723332,ADRA1A,TM7,7.5,Transmembrane,A,Gq/11,P7.50 — NPxxY motif; structural pivot TM7,P35348
+8:26628099,G,A,synonymous_variant,323,P,cCc/cCc,,0.3268,0.485717952139622,ADRA1A,TM7,7.5,Transmembrane,A,Gq/11,P7.50 — NPxxY motif; structural pivot TM7,P35348
+8:26628089,G,A,synonymous_variant,326,Y,taC/taC,,0.7562,0.121363326973483,ADRA1A,TM7,7.53,Transmembrane,A,Gq/11,Y7.53 — NPxxY motif; reorients toward TM3 on activation,P35348
+5:148206629,C,T,missense_variant,79,D/H,Gat/Cat,,0.1091,0.962175249411658,ADRB2,TM2,2.5,Transmembrane,A,Gs,D2.50 — Na+ binding pocket; allosteric modulation,P07550
+5:148206786,C,T,missense_variant,131,R/P,cGc/cCc,,0.8149,0.088895682195964,ADRB2,TM3,3.5,Transmembrane,A,Gs,R3.50 — DRY motif (PDB 3SN6 β2AR-Gs),P07550
+5:148207249,C,T,synonymous_variant,285,C,tgC/tgC,,0.3319,0.478992747591396,ADRB2,TM6,6.47,Transmembrane,A,Gs,C6.47 — CWxP motif,P07550
+8:37823503,C,T,synonymous_variant,162,W,tGg/tGg,,0.9191,0.0366372338962638,ADRB3,TM4,4.5,Transmembrane,A,Gs,W4.50 — structural pivot TM4,P13945
+8:37823368,G,A,missense_variant,207,L/P,cTg/cCg,,0.5808,0.235973392307963,ADRB3,TM5,5.41,Transmembrane,A,Gs,TM5 — ligand binding pocket,P13945
+8:37823075,C,T,missense_variant,305,W/G,Tgg/Ggg,,0.4801,0.318668294030834,ADRB3,TM6,6.48,Transmembrane,A,Gs,W6.48 — CWxP toggle switch; rotates upon activation,P13945
+8:37822960,C,T,missense_variant,343,P/R,cCg/cGg,,0.5412,0.266642212074415,ADRB3,TM7,7.5,Transmembrane,A,Gs,P7.50 — NPxxY motif; structural pivot TM7,P13945
+3:148459042,G,A,synonymous_variant,74,D,Gac/Gac,,0.3685,0.43356250780493,AGTR1,TM2,2.5,Transmembrane,A,"Gq/11, G12/13",D2.50 — Na+ binding pocket; allosteric modulation,P30556
+3:122002877,C,T,synonymous_variant,702,I,atC/atC,,0.4679,0.32984695480782,CASR,TM3,3.5,Transmembrane,C,"Gq/11, Gi",R3.50 — DRY motif; direct Gα contact upon activation,P41180
+3:122003118,C,T,synonymous_variant,783,L,Ctg/Ctg,,0.5048,0.296880653763922,CASR,TM5,5.5,Transmembrane,C,"Gq/11, Gi",P5.50 — structural pivot TM5; flexibility for outward movement,P41180
+3:122003330,C,T,synonymous_variant,853,A,gcA/gcC,,0.7639,0.11696348997232,CASR,TM7,7.53,Transmembrane,C,"Gq/11, Gi",Y7.53 — NPxxY motif; reorients toward TM3 on activation,P41180
+6:88854138,T,A,missense_variant,286,L/M,Ctg/Atg,,0.5879,0.230696539810918,CNR1,TM5,5.5,Transmembrane,A,Gi,P5.50 — structural pivot TM5; flexibility for outward movement,P21554
+35842747,C,T,synonymous_variant,98,A,gCc/gCc,2.89999999999457e-05,0.2361,0.626904012921273,FFAR1,TM3,3.44,Transmembrane,A,"Gq/11, Gi",Upper TM3 — orthosteric ligand binding pocket,
+35843269,C,T,missense_variant,272,N/T,aAt/aCt,0.999862,0.409,0.388276691992658,FFAR1,TM7,7.49,Transmembrane,A,"Gq/11, Gi",N7.49 — NPxxY motif,
+35843280,G,A,missense_variant,276,T/A,Acc/Gcc,0.996838,0.2414,0.61726273423867,FFAR1,TM7,7.53,Transmembrane,A,"Gq/11, Gi",T7.53 (not Y) — atypical NPxxT in FFAR1,
+35940780,C,T,missense_variant,55,D/A,gAc/gCc,0.99991,0.603,0.219682687859849,FFAR2,TM2,2.5,Transmembrane,A,"Gi, Gq",D2.50 — Na+ binding pocket; allosteric modulation,
+35941189,G,T,synonymous_variant,191,P,ccC/ccG,0.99995,0.8087,0.0922125568893838,FFAR2,TM5,5.5,Transmembrane,A,"Gi, Gq",P5.50 — structural pivot TM5; flexibility for outward movement,
+35941274,G,T,synonymous_variant,220,A,Gcc/Gcc,0.999934,0.9022,0.0446971772383083,FFAR2,TM6,6.33,Transmembrane,A,"Gi, Gq",TM6 cytoplasmic — direct G-protein α5 helix contact,
+35941317,G,T,synonymous_variant,234,C,tGc/tGc,0.999299,0.009371,2.02821406212089,FFAR2,TM6,6.47,Transmembrane,A,"Gi, Gq",C6.47 — CWxP motif,
+3:172163225,C,T,synonymous_variant,276,W,tGg/tGg,,0.8059,0.093718844227847,GHSR,TM6,6.48,Transmembrane,A,Gq/11,W6.48 — CWxP toggle switch; rotates upon activation,Q92847
+3:172163226,G,A,missense_variant,276,W/R,Tgg/Cgg,,0.2659,0.575281662668433,GHSR,TM6,6.48,Transmembrane,A,Gq/11,W6.48 — CWxP toggle switch; rotates upon activation,Q92847
+9760777,G,C,missense_variant,217,L/V,Ttg/Gtg,0.99994,0.5796,0.236871623200863,GLP2R,TM2,2.46,Transmembrane,B1,Gs,R2.46 — conserved class B Gαs contact,
+219127843,C,T,missense_variant,132,W/C,tgG/tgC,0.00036,0.4925,0.307593765166369,GPBAR,TM4,4.5,Transmembrane,A,Gs,W4.50 — structural pivot TM4,
+219128157,C,T,missense_variant,237,W/S,tGg/tCg,0.000106,0.9928,0.0031382315093265,GPBAR,TM6,6.48,Transmembrane,A,Gs,W6.48 — CWxP toggle switch; rotates upon activation,
+219128275,G,A,synonymous_variant,276,V,gtG/gtG,0.999901,0.8683,0.0613301989773208,GPBAR,TM7,7.49,Transmembrane,A,Gs,N7.49 — NPxxY motif,
+72368460,G,C,synonymous_variant,370,W,tgG/tgG,0.999852,0.3709,0.43074316667139,GPR142,TM6,6.48,Transmembrane,A,*Gq/11,W6.48 — CWxP toggle switch; rotates upon activation,
+72368464,G,C,missense_variant,372,P/A,Ccc/Gcc,4.89999999999657e-05,0.6908,0.160647671104579,GPR142,TM6,6.5,Transmembrane,A,*Gq/11,P6.50 — CWxP motif; TM6 kink,
+54081716,G,A,missense_variant,60,N/H,Aac/Cac,0.998448,0.506,0.295849483160201,GPR75,TM1,1.5,Transmembrane,A,Gq/11,N1.50 — structural pivot TM1; Na+/water channel,
+54081626,G,A,missense_variant,90,D/H,Gac/Cac,0.971581,0.6861,0.163612580673589,GPR75,TM2,2.5,Transmembrane,A,Gq/11,D2.50 — Na+ binding pocket; allosteric modulation,
+54080768,G,A,missense_variant,376,Y/H,Tat/Cat,2.4000000000024e-05,0.3177,0.497982785172853,GPR75,TM7,7.53,Transmembrane,A,Gq/11,Y7.53 — NPxxY motif; reorients toward TM3 on activation,
+113704075,G,C,missense_variant,140,L/P,cTg/cCg,0.999919,0.9181,0.0371100126082088,LPAR1,TM3,3.44,Transmembrane,A,"Gi, Gq, G12/13",Upper TM3 — orthosteric ligand binding pocket,
+113704060,G,A,missense_variant,145,E/A,gAg/gCg,0.999853,0.9314,0.0308637664032875,LPAR1,TM3,3.49,Transmembrane,A,"Gi, Gq, G12/13",D/E3.49 — DRY/ERY motif; ionic lock partner,
+113704061,G,T,missense_variant,145,E/Q,Gag/Cag,0.999675,0.41,0.387216143280265,LPAR1,TM3,3.49,Transmembrane,A,"Gi, Gq, G12/13",D/E3.49 — DRY/ERY motif; ionic lock partner,
+113704053,G,A,synonymous_variant,147,H,caC/caC,0.000155286,0.8144,0.0891622350073165,LPAR1,TM3,3.51,Transmembrane,A,"Gi, Gq, G12/13",Y/H3.51 — DRY motif; ionic lock,
+113637877,C,T,missense_variant,307,N/D,Aac/Gac,0.999974,0.8,0.0969100130080564,LPAR1,TM7,7.49,Transmembrane,A,"Gi, Gq, G12/13",N7.49 — NPxxY motif,
+113637872,C,A,synonymous_variant,308,P,ccC/ccG,0.287216,0.7296,0.13691517467964,LPAR1,TM7,7.5,Transmembrane,A,"Gi, Gq, G12/13",P7.50 — NPxxY motif; structural pivot TM7,
+85331425,G,A,synonymous_variant,127,R,Agg/Cgg,0.003973,0.2918,0.534914712442567,LPAR3,TM3,3.5,Transmembrane,A,"Gi, Gq",R3.50 — DRY motif; direct Gα contact upon activation,
+85331091,C,T,missense_variant,238,M/R,aTg/aGg,4.19999999999865e-05,0.223,0.651695136951839,LPAR3,TM6,6.33,Transmembrane,A,"Gi, Gq",TM6 cytoplasmic — direct G-protein α5 helix contact,
+85279726,G,A,missense_variant,289,N/H,Aac/Cac,2.50000000000528e-05,0.6275,0.202386269846924,LPAR3,TM7,7.49,Transmembrane,A,"Gi, Gq",N7.49 — NPxxY motif,
+6730077,G,A,missense_variant,113,M/T,aTg/aCg,0.000588,0.6465,0.189431470783587,LPAR5,TM3,3.44,Transmembrane,A,"G12/13, Gq",Upper TM3 — orthosteric ligand binding pocket,
+6730056,C,T,missense_variant,120,Y/C,tAc/tGc,0.999974,0.844,0.073657553374345,LPAR5,TM3,3.51,Transmembrane,A,"G12/13, Gq",Y/H3.51 — DRY motif; ionic lock,
+6729717,G,A,missense_variant,233,V/A,gTg/gCg,0.999984,0.1736,0.760450279159527,LPAR5,TM6,6.33,Transmembrane,A,"G12/13, Gq",TM6 cytoplasmic — direct G-protein α5 helix contact,
+6729676,G,C,missense_variant,247,F/L,Ttc/Ctc,0.999899,0.4483,0.348431261134208,LPAR5,TM6,6.48,Transmembrane,A,"G12/13, Gq",W6.48 — CWxP toggle switch; rotates upon activation,
+6729670,G,A,synonymous_variant,249,P,Ccc/Ccc,0.000916,0.01902,1.7207894873986,LPAR5,TM6,6.5,Transmembrane,A,"G12/13, Gq",P6.50 — CWxP motif; TM6 kink,
+48986457,G,A,missense_variant,35,N/H,Aat/Cat,0.99981996,0.09721,1.01228905686969,LPAR6,TM1,1.5,Transmembrane,A,"Gs, Gi",N1.50 — structural pivot TM1; Na+/water channel,
+48986237,C,T,missense_variant,108,T/S,aCc/aGc,0.999963,0.084,1.07572071393812,LPAR6,TM3,3.44,Transmembrane,A,"Gs, Gi",Upper TM3 — orthosteric ligand binding pocket,
+48986238,G,A,missense_variant,108,T/P,Acc/Ccc,0.999811,0.8834,0.0538426050776277,LPAR6,TM3,3.44,Transmembrane,A,"Gs, Gi",Upper TM3 — orthosteric ligand binding pocket,
+48986138,G,A,missense_variant,141,W/S,tGg/tCg,0.0009139999999999,0.7792,0.108351056129441,LPAR6,TM4,4.5,Transmembrane,A,"Gs, Gi",W4.50 — structural pivot TM4,
+48985877,C,T,stop_gained,228,L/*,tTa/tGa,0.000264,0.02833,1.54775342547956,LPAR6,TM6,6.33,Transmembrane,A,"Gs, Gi",TM6 cytoplasmic — direct G-protein α5 helix contact,
+58038678,C,T,missense_variant,302,Y/C,tAt/tGt,0.118995,0.9844,0.006828394969,MC4R,TM7,7.53,Transmembrane,A,"Gs, *Gq",Y7.53 = Y265 — NPxxY,
+58038679,G,A,missense_variant,302,Y/H,Tat/Cat,0.999958,0.4901,0.3097152975,MC4R,TM7,7.53,Transmembrane,A,"Gs, *Gq",Y7.53 = Y265 — NPxxY,
+11:92714884,G,C,synonymous_variant,165,W,tgG/tgG,,0.4924,0.307681955740721,MTNR1B,TM4,4.5,Transmembrane,A,Gi,W4.50 — structural pivot TM4,P49286
+11:92715011,C,T,synonymous_variant,208,H,Cac/Cac,,0.974,0.0114410431213845,MTNR1B,TM5,5.46,Transmembrane,A,Gi,TM5 — activation microswitch (4.53–5.46 contact pair),P49286
+11:92715025,G,T,synonymous_variant,212,P,ccT/ccG,,0.7386,0.13159069668504,MTNR1B,TM5,5.5,Transmembrane,A,Gi,P5.50 — structural pivot TM5; flexibility for outward movement,P49286
+4:164247533,G,A,synonymous_variant,58,N,aaC/aaC,,0.6322,0.199145508496439,NPY1R,TM1,1.5,Transmembrane,A,Gi,N1.50 — structural pivot TM1; Na+/water channel,P25929
+4:164247312,G,A,missense_variant,132,V/A,gTt/gCt,,0.5155,0.287771330380465,NPY1R,TM3,3.44,Transmembrane,A,Gi,Upper TM3 — orthosteric ligand binding pocket,P25929
+4:164247297,G,T,missense_variant,137,E/A,gAa/gCa,,0.9065,0.0426321915684725,NPY1R,TM3,3.49,Transmembrane,A,Gi,D/E3.49 — DRY/ERY motif; ionic lock partner,P25929
+4:164247050,G,A,missense_variant,219,Q/H,caG/caC,,0.7156,0.145329668104665,NPY1R,TM5,5.46,Transmembrane,A,Gi,TM5 — activation microswitch (4.53–5.46 contact pair),P25929
+4:164246660,G,A,synonymous_variant,317,P,cCc/cCc,,0.7155,0.145390361904205,NPY1R,TM7,7.5,Transmembrane,A,Gi,P7.50 — NPxxY motif; structural pivot TM7,P25929
+1:71512422,G,A,synonymous_variant,280,T,aCg/aCg,,0.7767,0.109746694845466,PTGER3,TM6,6.33,Transmembrane,A,Gi,TM6 cytoplasmic — direct G-protein α5 helix contact,P43115
+1:71512381,G,T,missense_variant,294,C/R,Tgc/Cgc,,0.04808,1.31803554100532,PTGER3,TM6,6.47,Transmembrane,A,Gi,C6.47 — CWxP motif,P43115
+101705342,G,A,missense_variant,268,C/G,Tgc/Ggc,4.49999999999617e-05,0.5407,0.267043630424375,S1PR1,TM6,6.47,Transmembrane,A,Gi,C6.47 — CWxP motif,
+10335193,G,A,missense_variant,130,R/P,cGc/cCc,0.999959,0.2144,0.668775218979268,S1PR2,TM3,3.5,Transmembrane,A,"G12/13, Gi, Gq",R3.50 — DRY motif; direct Gα contact upon activation,
+10334848,C,T,synonymous_variant,245,C,tGc/tGc,0.999927,0.4706,0.327348077159998,S1PR2,TM6,6.47,Transmembrane,A,"G12/13, Gi, Gq",C6.47 — CWxP motif,
+10334845,C,T,synonymous_variant,246,W,tGg/tGg,0.999959,0.08706,1.06018133717862,S1PR2,TM6,6.48,Transmembrane,A,"G12/13, Gi, Gq",W6.48 — CWxP toggle switch; rotates upon activation,
+120219493,G,T,synonymous_variant,240,L,ctT/ctC,0.999928,0.9135,0.0392914483114434,SCTR,TM3,3.5,Transmembrane,B1,Gs,Structural pivot TM3,
+17:71165639,G,T,missense_variant,61,N/D,Aac/Gac,,0.5207,0.283412422324308,SSTR2,TM1,1.5,Transmembrane,A,Gi,N1.50 — structural pivot TM1; Na+/water channel,P30874
+17:71165879,G,A,missense_variant,141,Y/D,Tac/Gac,,0.5142,0.288867927693158,SSTR2,TM3,3.51,Transmembrane,A,Gi,Y/H3.51 — DRY motif; ionic lock,P30874
+17:71166382,G,A,missense_variant,308,N/K,aaC/aaG,,0.5031,0.298345682674252,SSTR2,TM7,7.49,Transmembrane,A,Gi,N7.49 — NPxxY motif,P30874
+3:151598692,G,A,missense_variant,121,Y/D,Tac/Gac,,0.2721,0.565271458220242,SUCNR1,TM3,3.51,Transmembrane,A,"Gi, Gq/11",Y/H3.51 — DRY motif; ionic lock,Q9BXA5
+3:151598771,C,T,missense_variant,147,W/S,tGg/tCg,,0.4076,0.389765824665611,SUCNR1,TM4,4.5,Transmembrane,A,"Gi, Gq/11",W4.50 — structural pivot TM4,Q9BXA5
+42572354,C,T,synonymous_variant,240,L,ctG/ctC,0.334559,0.0619,1.20830935097988,VIPR1,TM3,3.5,Transmembrane,B1,Gs,Structural pivot TM3,
+42572366,G,C,synonymous_variant,244,L,ctT/ctG,0.999738,0.654,0.184422251675733,VIPR1,TM3,3.54,Transmembrane,B1,Gs,L3.54 — conserved class B Gαs contact,

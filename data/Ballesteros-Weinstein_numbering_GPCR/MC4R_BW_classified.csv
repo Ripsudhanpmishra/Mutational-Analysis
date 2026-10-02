@@ -1,0 +1,74 @@
+Location,affected allele,other allele,consequences,protein position,Amino acid change,codons,allele frequency,p value,negative logP value,Receptor,Structural region,BW number,Structural class,Receptor class,G-protein coupling,Functional note
+58038557,G,A,downstream_gene_variant,-,-,-,0.001188,0.3294,0.4822764052,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58038583,G,A,3_prime_UTR_variant,-,-,-,3e-05,0.6445,0.1907770783,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58038589,C,T,missense_variant,332,Y/D,Tat/Gat,0.999968,0.3753,0.4256214356,MC4R,C-term,—,C-terminus,A,"Gs, Gq",
+58038606,C,T,synonymous_variant,326,C,tGt/tGt,0.881064,0.9703,0.01309396862,MC4R,C-term,—,C-terminus,A,"Gs, Gq",
+58038610,G,A,synonymous_variant,325,L,Ctt/Ctt,0.000818,0.6521,0.1856857998,MC4R,C-term,—,C-terminus,A,"Gs, Gq",
+58038616,C,T,synonymous_variant,323,G,Gga/Gga,0.999465,0.2882,0.5403060235,MC4R,C-term,—,C-terminus,A,"Gs, Gq",
+58038617,G,A,synonymous_variant,322,L,ctG/ctC,0.999975,0.8361,0.07774177657,MC4R,C-term,—,C-terminus,A,"Gs, Gq",
+58038656,C,T,synonymous_variant,309,L,ctG/ctG,5.1e-05,0.9019,0.04484161307,MC4R,H8,8.50,Helix 8,A,"Gs, Gq",
+58038678,C,T,missense_variant,302,Y/C,tAt/tGt,0.118995,0.9844,0.006828394969,MC4R,TM7,7.53,Transmembrane,A,"Gs, Gq",Y7.53 = Y265 — NPxxY
+58038679,G,A,missense_variant,302,Y/H,Tat/Cat,0.999958,0.4901,0.3097152975,MC4R,TM7,7.53,Transmembrane,A,"Gs, Gq",Y7.53 = Y265 — NPxxY
+58038684,C,T,missense_variant,300,L/R,cTg/cGg,0.119022,0.9675,0.01434902631,MC4R,TM7,7.51,Transmembrane,A,"Gs, Gq",
+58038701,G,A,synonymous_variant,294,N,aaT/aaC,6.3e-05,0.3957,0.4026339497,MC4R,TM7,7.45,Transmembrane,A,"Gs, Gq",
+58038706,G,A,missense_variant,293,C/R,Tgt/Cgt,7.4e-05,0.4588,0.3383765908,MC4R,TM7,7.44,Transmembrane,A,"Gs, Gq",
+58038716,C,T,missense_variant,289,I/M,atA/atG,3.8e-05,0.1131,0.9465373951,MC4R,TM7,7.40,Transmembrane,A,"Gs, Gq",
+58038793,G,C,synonymous_variant,264,H,Cac/Cac,0.938342,0.06491,1.187688391,MC4R,TM6,6.54,Transmembrane,A,"Gs, Gq",
+58038796,G,T,synonymous_variant,263,L,Ctc/Ctc,0.001972,0.9948,0.002264223402,MC4R,TM6,6.53,Transmembrane,A,"Gs, Gq",
+58038799,C,T,missense_variant,262,F/V,Ttc/Gtc,0.881072,0.9949,0.002220569134,MC4R,TM6,6.52,Transmembrane,A,"Gs, Gq",
+58038878,C,T,missense_variant,235,I/M,atC/atG,0.999963,0.842,0.0746879085,MC4R,ICL3,—,Intracellular loop,A,"Gs, Gq",
+58038882,G,A,synonymous_variant,234,A,gCc/gCc,0.118952,0.9803,0.008640997362,MC4R,ICL3,—,Intracellular loop,A,"Gs, Gq",
+58038893,G,C,synonymous_variant,230,P,ccC/ccC,0.999963,0.02957,1.529148675,MC4R,ICL3,—,Intracellular loop,A,"Gs, Gq",
+58038896,C,T,synonymous_variant,229,L,ctC/ctG,0.118959,0.9865,0.005902910412,MC4R,TM5,5.75,Transmembrane,A,"Gs, Gq",
+58038914,TTGG,T,inframe_insertion,223,I/IH,att/atCCAt,0.999953,0.5254,0.2795099315,MC4R,TM5,5.69,Transmembrane,A,"Gs, Gq",
+58038920,G,A,synonymous_variant,221,L,ctT/ctC,0.000269,0.9435,0.0252580955,MC4R,TM5,5.67,Transmembrane,A,"Gs, Gq",
+58038949,G,C,missense_variant,212,Y/H,Tat/Cat,0.99791,0.6947,0.1582027011,MC4R,TM5,5.58,Transmembrane,A,"Gs, Gq",
+58039018,C,A,synonymous_variant,189,D,Gat/Gat,0.119507,0.9615,0.01705071143,MC4R,ECL2,—,Extracellular loop,A,"Gs, Gq",
+58039034,C,T,synonymous_variant,183,L,ttG/ttG,0.999934,0.3956,0.4027437171,MC4R,TM4,4.59,Transmembrane,A,"Gs, Gq",
+58039040,C,A,synonymous_variant,181,G,ggC/ggG,0.999948,0.5586,0.2528990686,MC4R,TM4,4.57,Transmembrane,A,"Gs, Gq",
+58039044,C,T,stop_gained,180,S/*,tCa/tGa,0.999964,0.1376,0.8613815661,MC4R,TM4,4.56,Transmembrane,A,"Gs, Gq",
+58039101,C,T,missense_variant,161,M/R,aTg/aGg,9.9e-05,0.8734,0.05878681241,MC4R,ICL2,34.57,Intracellular loop,A,"Gs, Gq",
+58039115,AACC,A,inframe_insertion,156,Q/QV,cag/caGGTg,0.68366,0.3725,0.4288737229,MC4R,ICL2,34.52,Intracellular loop,A,"Gs, Gq",
+58039116,ACCG,A,protein_altering_variant,156,Q/PE,cag/cCGGag,0.195541,0.1573,0.8032712774,MC4R,ICL2,34.52,Intracellular loop,A,"Gs, Gq",
+58039180,TTTCCTTTCTTTC,T,inframe_insertion,134,-/ERKE,-/GAAAGAAAGGAA,0.999933,0.9954,0.002002363592,MC4R,TM3,3.37,Transmembrane,A,"Gs, Gq",
+58039206,C,CTT,frameshift_variant,125,ID/IX,atTGac/atac,5.1e-05,0.6126,0.2128230075,MC4R,TM3,3.28,Transmembrane,A,"Gs, Gq",
+58039229,G,A,synonymous_variant,118,T,acA/acC,0.999988,0.6608,0.1799299657,MC4R,TM3,3.21,Transmembrane,A,"Gs, Gq",
+58039268,G,A,synonymous_variant,105,T,acC/acC,0.999974,0.6807,0.1670442494,MC4R,TM2,2.65,Transmembrane,A,"Gs, Gq",
+58039272,C,T,missense_variant,104,I/S,aTc/aGc,0.999956,0.8052,0.09409623378,MC4R,TM2,2.64,Transmembrane,A,"Gs, Gq",
+58039278,G,A,missense_variant,102,I/T,aTt/aCt,7.5e-05,0.2859,0.5437858446,MC4R,TM2,2.62,Transmembrane,A,"Gs, Gq",
+58039289,G,C,synonymous_variant,98,G,ggA/ggC,4e-05,0.7776,0.1092437481,MC4R,TM2,2.58,Transmembrane,A,"Gs, Gq",
+58039294,G,T,missense_variant,97,N/H,Aat/Cat,0.999898,0.1189,0.9248181454,MC4R,TM2,2.57,Transmembrane,A,"Gs, Gq",
+58039301,G,A,synonymous_variant,94,S,agC/agC,0.981652,0.06394,1.194227368,MC4R,TM2,2.54,Transmembrane,A,"Gs, Gq",
+58039302,GACC,G,protein_altering_variant,94,S/RC,agc/aGGTgc,0.99871383,0.01613,1.792365633,MC4R,TM2,2.54,Transmembrane,A,"Gs, Gq",
+58039303,T,A,synonymous_variant,94,S,Agc/Agc,0.000209,0.9166,0.03782014709,MC4R,TM2,2.54,Transmembrane,A,"Gs, Gq",
+58039304,C,T,synonymous_variant,93,V,gtG/gtG,0.118964,0.5716,0.2429077799,MC4R,TM2,2.53,Transmembrane,A,"Gs, Gq",
+58039306,C,T,synonymous_variant,93,V,Gtg/Gtg,0.9764706,0.004093,2.387958255,MC4R,TM2,2.53,Transmembrane,A,"Gs, Gq",
+58039310,TG,T,frameshift_variant,91,M/IX,atg/atCg,0.095588,0.2156,0.6663512435,MC4R,TM2,2.51,Transmembrane,A,"Gs, Gq",
+58039338,G,A,missense_variant,82,F/S,tTc/tCc,5.1e-05,0.8104,0.09130056765,MC4R,TM2,2.42,Transmembrane,A,"Gs, Gq",
+58039342,G,T,missense_variant,81,F/L,Ttt/Ctt,0.999961,0.9541,0.02040610415,MC4R,TM2,2.41,Transmembrane,A,"Gs, Gq",
+58039344,G,T,missense_variant,80,Y/S,tAc/tCc,0.118969,0.9533,0.02077040698,MC4R,TM2,2.40,Transmembrane,A,"Gs, Gq",
+58039349,C,A,synonymous_variant,78,P,ccC/ccG,0.999953,0.5081,0.2940508051,MC4R,TM2,2.38,Transmembrane,A,"Gs, Gq",
+58039362,C,T,missense_variant,74,N/S,aAt/aGt,0.999977,0.1445,0.8401321529,MC4R,ICL1,12.49,Intracellular loop,A,"Gs, Gq",
+58039364,C,A,synonymous_variant,73,K,aaG/aaG,0.000262,0.8315,0.08013774644,MC4R,ICL1,12.48,Intracellular loop,A,"Gs, Gq",
+58039394,G,A,synonymous_variant,63,I,atC/atC,0.999815,0.4217,0.374996399,MC4R,TM1,1.51,Transmembrane,A,"Gs, Gq",
+58039421,C,T,synonymous_variant,54,L,ctG/ctG,0.999857,0.3345,0.4756038779,MC4R,TM1,1.42,Transmembrane,A,"Gs, Gq",
+58039457,C,T,synonymous_variant,42,E,gaG/gaG,0.999969,0.8743,0.05833952161,MC4R,N-term,—,N-terminus,A,"Gs, Gq",
+58039474,G,T,missense_variant,37,D/H,Gat/Cat,8.7e-05,0.7378,0.1320613491,MC4R,N-term,—,N-terminus,A,"Gs, Gq",
+58039483,C,T,synonymous_variant,34,G,Ggc/Ggc,0.000433,0.7836,0.1059055727,MC4R,N-term,—,N-terminus,A,"Gs, Gq",
+58039512,G,C,missense_variant,24,H/P,cAc/cCc,0.00014,0.7204,0.1424262959,MC4R,N-term,—,N-terminus,A,"Gs, Gq",
+58039604,G,A,5_prime_UTR_variant,-,-,-,6.3e-05,0.4808,0.318035541,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039635,C,A,5_prime_UTR_variant,-,-,-,0.881227,0.9485,0.02296266478,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039639,C,T,5_prime_UTR_variant,-,-,-,0.999893,0.6065,0.2171691948,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039643,C,T,5_prime_UTR_variant,-,-,-,3.7e-05,0.2208,0.6560009309,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039651,C,T,5_prime_UTR_variant,-,-,-,9.9e-05,0.1522,0.8175853476,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039655,C,T,5_prime_UTR_variant,-,-,-,0.118777,0.9682,0.0140349217,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039691,C,T,5_prime_UTR_variant,-,-,-,3.7e-05,0.3435,0.4640732586,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039758,C,T,5_prime_UTR_variant,-,-,-,5.7e-05,0.2807,0.5517575874,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039762,C,A,5_prime_UTR_variant,-,-,-,0.937513,0.0661,1.179798541,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039774,G,A,5_prime_UTR_variant,-,-,-,4.7e-05,0.9509,0.0218651526,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039800,C,A,5_prime_UTR_variant,-,-,-,5.8e-05,0.5096,0.2927705807,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039831,C,T,5_prime_UTR_variant,-,-,-,0.999944,0.01021,1.990974258,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039868,C,T,5_prime_UTR_variant,-,-,-,8.4e-05,0.6485,0.1880900196,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039881,C,T,5_prime_UTR_variant,-,-,-,2.8e-05,0.5028,0.298604731,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039885,C,T,5_prime_UTR_variant,-,-,-,0.000796,0.3437,0.4638204679,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
+58039951,C,T,5_prime_UTR_variant,-,-,-,0.999964,0.1328,0.876801925,MC4R,Unknown,—,Unknown,A,"Gs, Gq",Non-numeric position in source data
