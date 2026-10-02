@@ -1,0 +1,6 @@
+Location,Affected_Allele,Other_Allele,Consequence,Protein_Position,Amino_Acid_Change,Codons,Allele_Frequency,P_Value,Neg_Log10_P_Value
+19:35849827,C,T,missense_variant,12,G/V,gGc/gTc,0.999966,0.4183,0.37851213541937
+19:35849841,G,A,synonymous_variant,17,V,Gtc/Gtc,0.999624,0.6927,0.159454812363161
+19:35850294-35850295,GT,G,frameshift_variant,168,T/TX,acc/aCcc,4.99999999999945e-05,0.8651,0.0629336879825718
+19:35850770,GTTG,ATTG,synonymous_variant,326,R,agA/agG,0.0133333,0.6696,0.174184555014796
+19:35850829,TG,CG,missense_variant,346,S/T,aGc/aCc,0.989777,0.6985,0.155833589549799
