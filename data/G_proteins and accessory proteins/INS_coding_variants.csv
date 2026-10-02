@@ -1,0 +1,24 @@
+Location,Affected Allele,Other Allele,Consequences,Protein Position,Amino Acid Change,Codons,P Value,Negative LogP Value
+11:2181086,G,A,missense_variant,110,N/T,aAc/aCc,0.4758,0.322575562298753
+11:2181090,G,A,missense_variant,109,C/R,Tgc/Cgc,0.3434,0.464199709175102
+11:2181099,C,T,synonymous_variant,106,E,Gag/Gag,0.6629,0.17855198098247
+11:2181121,C,T,missense_variant,98,S/R,agC/agG,0.2946,0.530767257493388
+11:2181122,G,A,missense_variant,98,S/T,aGc/aCc,0.02818,1.55005901122666
+11:2181126,C,T,missense_variant,97,T/A,Acc/Gcc,0.1092,0.961777361631282
+11:2181135,G,A,synonymous_variant,94,Q,Caa/Caa,0.2606,0.584025588623434
+11:2181139,G,A,synonymous_variant,92,V,gtG/gtC,0.05201,1.28391314622517
+11:2181202,C,T,synonymous_variant,71,G,ggC/ggG,0.4915,0.308476477831846
+11:2181207,C,T,synonymous_variant,70,G,Ggg/Ggg,0.1199,0.921180816901151
+11:2181218,G,A,missense_variant,66,V/A,gTg/gCg,0.1214,0.915781313260761
+11:2181222,G,A,synonymous_variant,65,Q,Cag/Cag,0.1415,0.849243560139691
+11:2182015,G,T,"missense_variant,splice_region_variant",63,V/L,Gtg/Ctg,0.4607,0.33658178774732
+11:2182025,G,C,missense_variant,59,E/D,gaG/gaC,0.317,0.498940737782248
+11:2182141,C,T,missense_variant,21,P/A,Cca/Gca,0.004045,2.39308147405171
+11:2182142,G,A,synonymous_variant,20,D,gaC/gaC,0.4312,0.365321247821318
+11:2182145,C,T,synonymous_variant,19,P,ccT/ccG,0.3537,0.451364940185248
+11:2182151,C,T,synonymous_variant,17,W,tgG/tgG,0.5127,0.290136682559601
+11:2182152,G,A,missense_variant,17,W/S,tGg/tCg,0.8724,0.0592843430933374
+11:2182175,G,A,synonymous_variant,9,P,ccC/ccC,0.5729,0.241921177750387
+11:2182193,C,T,synonymous_variant,3,L,ctG/ctG,0.04436,1.35300846252288
+11:2182197,C,T,missense_variant,2,A/G,gCc/gGc,0.5336,0.272784179091507
+11:2182198,G,A,missense_variant,2,A/P,Gcc/Ccc,0.5694,0.244582537189064

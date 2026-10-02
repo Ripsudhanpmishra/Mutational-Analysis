@@ -1,0 +1,26 @@
+Location,Affected Allele,Other Allele,Consequences,Protein Position,Amino Acid Change,Codons,P Value,Negative LogP Value
+2:162999874,C,T,stop_retained_variant,181,*,taA/taG,0.4577,0.3394190875727
+2:162999879,C,A,"missense_variant,splice_region_variant",180,K/E,Aaa/Gaa,0.4125,0.384576047114056
+2:163000570,G,A,missense_variant,168,I/T,aTa/aCa,0.09041,1.04378353075661
+2:163000586,G,A,missense_variant,163,A/P,Gcc/Ccc,0.281,0.55129368009492
+2:163000592,G,A,missense_variant,161,N/H,Aat/Cat,0.9741,0.0113964566543361
+2:163000605,C,T,missense_variant,156,N/K,aaC/aaG,0.8685,0.0612301772168825
+2:163000607,C,T,missense_variant,156,N/D,Aac/Gac,0.9499,0.0223221123260061
+2:163000650,G,T,missense_variant,141,E/D,gaA/gaC,0.3264,0.486249849918176
+2:163002054,C,T,missense_variant,130,R/G,Cga/Gga,0.36,0.443697499232713
+2:163002056,C,A,synonymous_variant,129,R,aGg/aGg,0.09571,1.01904268377038
+2:163002077,C,T,synonymous_variant,122,W,tGg/tGg,0.7558,0.121593112419004
+2:163002166,C,A,missense_variant,92,H/Q,caC/caG,0.7321,0.13542959314657
+2:163002170,C,T,synonymous_variant,91,R,cGt/cGt,0.004755,2.32284947872657
+2:163003912,T,A,synonymous_variant,69,R,Agg/Agg,0.7174,0.144238627660052
+2:163003962,C,T,synonymous_variant,52,R,cGc/cGc,0.2391,0.621420423884225
+2:163003986,T,A,missense_variant,44,P/H,cCt/cAt,0.04757,1.3226668485801
+2:163004003,G,C,synonymous_variant,38,A,gcA/gcC,0.8379,0.0768078095793325
+2:163004004,G,A,synonymous_variant,38,A,gCa/gCa,0.3448,0.462432742847325
+2:163004017,C,T,missense_variant,34,S/A,Tca/Gca,0.9592,0.0180908299092077
+2:163004019,C,T,missense_variant,33,F/C,tTc/tGc,0.6389,0.19456711186786
+2:163005598,C,T,"missense_variant,splice_region_variant",31,R/G,Aga/Gga,0.4215,0.375202421039239
+2:163005615,C,T,missense_variant,25,D/G,gAc/gGc,0.6523,0.185552621477512
+2:163005662,C,T,synonymous_variant,9,G,ggA/ggG,0.4771,0.321390583441074
+2:163005663,G,A,missense_variant,9,G/A,gGa/gCa,0.777,0.109578981199086
+2:163005684,C,T,missense_variant,2,K/R,aAa/aGa,0.09994,1.00026065489343
