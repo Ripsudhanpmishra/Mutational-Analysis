@@ -4,7 +4,7 @@ Computational pipeline for genomic variant analysis across a diabetes/metabolic-
 
 Developed during the **RISE-UP Summer Internship, IIT Jammu** (May–July 2026), under the guidance of **Dr. Mithu Baidya**.
 
-> 📄 A full, script-level methodology write-up is available in [`docs/Methodology.docx`](docs/Methodology.docx) (or wherever you place it in this repo) — this README is a navigable summary of that document.
+> 📄 A full, script-level methodology write-up is available in [`Images/Methodology.docx`](Images/Methodology.docx) (place it wherever you prefer in the repo) — this README is a navigable summary of that document.
 
 ---
 
@@ -40,6 +40,24 @@ The panel is organized into three tiers, each processed through a shared extract
 | **G-proteins / downstream / effectors / TFs** | Gα subunits (GNA11, GNAI1, GNAO1, GNAQ, GNAS, GNA13, GNA12) and related signaling/effector/TF genes | Mutation type and burden per gene |
 | **Accessory proteins** | GRKs, β-arrestins (ARRBs), RAMPs, MRAPs | Total + type-wise mutation counts, family-specific domain-wise analysis |
 
+---
+
+## Repository Structure
+
+```
+.
+├── Images/                         # Figures, snake plot images, and supporting docs (e.g. Methodology.docx)
+├── Notebooks_and_Scripts/          # Bash/AWK extraction scripts, VEP commands, and Python
+│                                   # notebooks/scripts for merging, structural annotation,
+│                                   # and visualization
+├── data/                           # Source and intermediate data (raw variant datasets,
+│                                   # extracted VCFs/CSVs, VEP-annotated outputs, GPCRdb tables)
+├── outputs/                        # Compiled master files, functional-site subsets, and
+│                                   # exported figures (PNG/HTML)
+└── README.md
+```
+
+> ℹ️ This matches the repo's current top-level layout. If you've split `Notebooks_and_Scripts`, `data`, or `outputs` into subfolders, share that listing and I'll refine the tree and the paths used in [Usage](#usage) and [Scripts Reference](#scripts-reference) below to match exactly.
 
 ---
 
@@ -105,25 +123,27 @@ Bash/AWK extraction scripts require a standard POSIX shell environment (tested o
 
 ```bash
 # 1. Extract a gene's variants (edit CHR / coordinate window inside the script, or parameterize it)
-bash scripts/extraction/extract_gene_vcf.sh
-bash scripts/extraction/extract_gene_csv.sh
+bash Notebooks_and_Scripts/extract_gene_vcf.sh
+bash Notebooks_and_Scripts/extract_gene_csv.sh
 
 # 2. Annotate with VEP
-vep -i data/vcf/<gene>_grch37_targets.vcf \
-    -o data/annotated/<gene>_annotated.txt \
+vep -i data/<gene>_grch37_targets.vcf \
+    -o data/<gene>_annotated.txt \
     --database --assembly GRCh37 --protein --symbol --canonical --tab
 
 # 3. Merge annotation with association/summary data, filter to coding variants
-python scripts/merge/merge_annotated_vcfs.py
+python Notebooks_and_Scripts/merge_annotated_vcfs.py
 
 # 4. Structural annotation (BW numbering + G-protein coupling)
-python scripts/structural/bw_classifier_v3.py <variants_folder> <residue_table.xlsx> <output_folder>
+python Notebooks_and_Scripts/bw_classifier_v3.py <variants_folder> <residue_table.xlsx> <output_folder>
 
 # 5. Visualize
-python scripts/visualization/lollipop_plot.py
-python scripts/visualization/circular_radial_plot.py
-python scripts/visualization/domain_mapper.py
+python Notebooks_and_Scripts/lollipop_plot.py
+python Notebooks_and_Scripts/circular_radial_plot.py
+python Notebooks_and_Scripts/domain_mapper.py
 ```
+
+> Exact filenames/paths above are placeholders until you confirm what's actually inside `Notebooks_and_Scripts/` and `data/` — see the note above.
 
 ---
 
